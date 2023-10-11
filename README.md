@@ -19,6 +19,14 @@ The `tests` folder is separated even further. It has different kinds of tests gr
 
 This template is already configured to work with both `jest` and `vitest` so feel free to pick your favorite and start testing.
 
+## Solution
+
+Run `chmod +x src/features/roman-numerals.js` to make the file executable.
+
+`yarn jest` will test with all of my test cases
+
+`node src/features/roman-numerals.js` will run the CLI with a spiffy ASCII art title. You can use this to test your own cases.
+
 ## Available Scripts
 
 In the project directory, you can run:
