@@ -50,7 +50,7 @@ const fizzBuzzFour = (number) => {
 
 const fizzBuzzFive = (number) => {
   // I'm sorry to whoever reads this...
-  const wordArray = ['Fizz', 'Buzz', 'FizzBuzz'];
+  const WORD_ARRAY = ['Fizz', 'Buzz', 'FizzBuzz'];
   let result = [];
 
   for (let i = 1; i <= number; i++) {
@@ -70,11 +70,11 @@ const fizzBuzzFive = (number) => {
     }
 
     if (fizzCount > 0 && buzzCount > 0) {
-      convertedNumber = wordArray[2];
+      convertedNumber = WORD_ARRAY[2];
     } else if (fizzCount > 0) {
-      convertedNumber = wordArray[0];
+      convertedNumber = WORD_ARRAY[0];
     } else if (buzzCount > 0) {
-      convertedNumber = wordArray[1];
+      convertedNumber = WORD_ARRAY[1];
     } else {
       convertedNumber = i;
     }
